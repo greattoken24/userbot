@@ -50,8 +50,8 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HA
-API_KEY = os.environ.get("API_KEY", "1046587")
-API_HASH = os.environ.get("API_HASH", "db08beddfc3d1b4a309ccc7c5a7015ad")
+API_KEY = os.environ.get("API_KEY", "1165722")
+API_HASH = os.environ.get("API_HASH", "0df1f7a74fdd2481ebba0743c103fdb8")
 
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
@@ -97,7 +97,7 @@ OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
 WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 
 # Anti Spambot Config
-ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
+ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "True"))
 ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # Youtube API key
